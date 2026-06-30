@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= typeof title !=='undefined' ? title : 'TechStore' %>
+    </title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="/" class="logo">
+                <span>Store</span>
+            </a>
+            <nav class="nav-links">
+                <a href="/"
+                    class="<%= typeof activeTab !== 'undefined' && activeTab === 'home' ? 'active' : '' %>">Home</a>
+            </nav>
+        </div>
+    </header>

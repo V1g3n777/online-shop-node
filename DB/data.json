@@ -1,0 +1,156 @@
+[
+    {
+        "id": "1",
+        "categorySlug": "phones",
+        "brand": "Samsung",
+        "title": "Samsung Galaxy S25 Ultra",
+        "price": 474900,
+        "image": "https://mobilecentre.am/img/catpic/3321f5d4cbfe65741166deb14e556380bb14b55aNew_Project_-_2025-08-05T172452.159.png",
+        "inStock": 10,
+        "rating": 4.9,
+        "isNew": true,
+        "slug": "samsung-galaxy-s25-ultra",
+        "params": [
+            { "title": "Էկրան", "desc": "6.8\" Dynamic AMOLED 2X, 120Hz" },
+            { "title": "Պրոցեսոր", "desc": "Snapdragon 8 Gen 4" },
+            { "title": "Հիշողություն (RAM)", "desc": "12GB" },
+            { "title": "Հիշողություն (Storage)", "desc": "256GB" },
+            { "title": "Գույն", "desc": "Titanium Gray" },
+            { "title": "Մարտկոց", "desc": "5000 mAh" }
+        ]
+    },
+    {
+        "id": "2",
+        "categorySlug": "phones",
+        "brand": "Samsung",
+        "title": "Samsung Galaxy S25+",
+        "price": 391900,
+        "image": "https://mobilecentre.am/img/catpic/430010f45678e4cac1d821ed0a5c0a1ef0919454New_Project.png",
+        "inStock": 4,
+        "rating": 4.7,
+        "isNew": true,
+        "slug": "samsung-galaxy-s25-plus",
+        "params": [
+            { "title": "Էկրան", "desc": "6.7\" Dynamic AMOLED 2X" },
+            { "title": "Պրոցեսոր", "desc": "Exynos 2500 / Snapdragon 8 Gen 4" },
+            { "title": "Հիշողություն (RAM)", "desc": "12GB" },
+            { "title": "Հիշողություն (Storage)", "desc": "256GB" },
+            { "title": "Գույն", "desc": "Onyx Black" }
+        ]
+    },
+    {
+        "id": "3",
+        "categorySlug": "phones",
+        "brand": "Apple",
+        "title": "Apple iPhone 17 Pro",
+        "price": 529900,
+        "image": "https://mobilecentre.am/img/catpic/8d90b1513475fcb454e7665ee7c104642314e9adNew_Project_-_2025-09-19T105153.521.png",
+        "inStock": 2,
+        "rating": 5.0,
+        "isNew": true,
+        "slug": "apple-iphone-17-pro",
+        "params": [
+            { "title": "Էկրան", "desc": "6.3\" Super Retina XDR" },
+            { "title": "Պրոցեսոր", "desc": "A19 Pro chip" },
+            { "title": "Հիշողություն (RAM)", "desc": "8GB" },
+            { "title": "Հիշողություն (Storage)", "desc": "128GB" },
+            { "title": "Գույն", "desc": "Natural Titanium" },
+            { "title": "SIM քարտ", "desc": "Nano-SIM & eSIM" },
+            { "title": "Տեսախցիկ", "desc": "48MP + 48MP + 48MP" }
+        ]
+    },
+    {
+        "id": "4",
+        "categorySlug": "phones",
+        "brand": "Apple",
+        "title": "Apple iPhone 17",
+        "price": 399900,
+        "image": "https://mobilecentre.am/img/catpic/451564bc64359562e870d83e324c17fc1e0f4176New_Project_-_2025-09-19T111118.050.png",
+        "inStock": 0,
+        "rating": 4.6,
+        "isNew": true,
+        "slug": "apple-iphone-17",
+        "params": [
+            { "title": "Էկրան", "desc": "6.1\" Super Retina XDR" },
+            { "title": "Պրոցեսոր", "desc": "A19 chip" },
+            { "title": "Հիշողություն (RAM)", "desc": "8GB" },
+            { "title": "Հիշողություն (Storage)", "desc": "128GB" },
+            { "title": "Գույն", "desc": "Ultramarine" }
+        ]
+    },
+    {
+        "id": "5",
+        "categorySlug": "tablets",
+        "brand": "Apple",
+        "title": "Apple iPad 11 Wi-Fi 128GB 2025 (Blue)",
+        "price": 159900,
+        "image": "https://www.mobilecentre.am/img/prodpic/8020bbf49e774f5903c1New_Project_-_2025-04-08T110640.026.png",
+        "inStock": 10,
+        "rating": 4.8,
+        "isNew": false,
+        "slug": "apple-ipad-11-wi-fi-128gb-2025-blue",
+        "params": [
+            { "title": "Էկրան", "desc": "10.9\" Liquid Retina" },
+            { "title": "Կապ", "desc": "Wi-Fi Only" },
+            { "title": "Հիշողություն", "desc": "128GB" },
+            { "title": "Գույն", "desc": "Blue" },
+            { "title": "Լիցքավորում", "desc": "USB-C" }
+        ]
+    },
+    {
+        "id": "6",
+        "categorySlug": "tablets",
+        "brand": "Samsung",
+        "title": "Samsung Galaxy Tab A11+ Wi-Fi 256GB (Silver)",
+        "price": 399900,
+        "image": "https://www.mobilecentre.am/img/prodpic/ee7a1c84e180ee871c0bNew_Project_-_2025-11-11T152517.128.png",
+        "inStock": 10,
+        "rating": 4.5,
+        "isNew": false,
+        "slug": "samsung-galaxy-tab-a11-plus-wi-fi-256gb-silver",
+        "params": [
+            { "title": "Էկրան", "desc": "11.0\" TFT LCD" },
+            { "title": "Կապ", "desc": "Wi-Fi" },
+            { "title": "Հիշողություն", "desc": "256GB" },
+            { "title": "Օպերացիոն համակարգ", "desc": "Android 15" },
+            { "title": "Գույն", "desc": "Silver" }
+        ]
+    },
+    {
+        "id": "7",
+        "categorySlug": "watches",
+        "brand": "Green Lion",
+        "title": "Green Lion Communicate 49 Ultra",
+        "price": 19900,
+        "image": "https://www.mobilecentre.am/img/prodpic/f9b0a2c3cdc0be2bcb37New_Project__1_.png",
+        "inStock": 0,
+        "rating": 4.2,
+        "isNew": false,
+        "slug": "green-lion-communicate-49-ultra",
+        "params": [
+            { "title": "Չափս", "desc": "49mm" },
+            { "title": "Ջրակայունություն", "desc": "IP67" },
+            { "title": "Զանգեր", "desc": "Bluetooth Calling" },
+            { "title": "Էկրան", "desc": "HD Display" }
+        ]
+    },
+    {
+        "id": "8",
+        "categorySlug": "watches",
+        "brand": "Xiaomi",
+        "title": "Xiaomi Redmi Watch 5 Active",
+        "price": 17900,
+        "image": "https://www.mobilecentre.am/img/prodpic/5a7a0e0f6d0fdfce89f8New_Project_-_2026-02-11T124124.745.png",
+        "inStock": 2,
+        "rating": 4.4,
+        "isNew": true,
+        "slug": "xiaomi-redmi-watch-5-active",
+        "params": [
+            { "title": "Չափս", "desc": "45mm" },
+            { "title": "Մարտկոցի կյանք", "desc": "18 days" },
+            { "title": "SIM card", "desc": "Nano-SIM & eSIM" },
+            { "title": "Էկրան", "desc": "2.0\" LCD" },
+            { "title": "Սպորտային ռեժիմներ", "desc": "140+" }
+        ]
+    }
+]

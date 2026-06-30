@@ -1,0 +1,62 @@
+<%- include('partials/header') %>
+
+    <main style="margin-top: 2rem;">
+        <a href="/categories/<%= product.categorySlug %>" class="btn-back">
+            <span>← Back to <%= category.title %></span>
+        </a>
+
+        <div class="detail-layout">
+            <div class="detail-img-container">
+                <img src="<%= product.image %>" alt="<%= product.title %>" class="detail-img">
+            </div>
+
+            <div class="detail-info">
+                <span class="detail-brand">
+                    <%= product.brand %>
+                </span>
+                <h1 class="detail-title">
+                    <%= product.title %>
+                </h1>
+
+                <div class="detail-rating-stock">
+                    <div class="product-rating" style="font-size: 1.1rem;">
+                        <span>★ <%= product.rating %> / 5.0</span>
+                    </div>
+
+                    <% if (product.inStock> 0) { %>
+                        <span class="stock-tag in-stock">In Stock (<%= product.inStock %> pcs)</span>
+                        <% } else { %>
+                            <span class="stock-tag out-stock">Out of Stock</span>
+                            <% } %>
+                </div>
+
+                <div class="detail-price">
+                    <%= product.price.toLocaleString() %> ֏
+                </div>
+                <h3 style="margin-bottom: 1rem; font-size: 1.2rem; font-weight: 600;">Specifications</h3>
+                <div class="detail-specs">
+                    <% if (product.params && product.params.length> 0) { %>
+                        <% product.params.forEach(param=> { %>
+                            <div class="spec-row">
+                                <div class="spec-title">
+                                    <%= param.title %>
+                                </div>
+                                <div class="spec-value">
+                                    <%= param.desc %>
+                                </div>
+                            </div>
+                            <% }); %>
+                                <% } else { %>
+                                    <div class="spec-row">
+                                        <div class="spec-value" style="color: #94a3b8; width: 100%;">No
+                                            specifications available.</div>
+                                    </div>
+                                    <% } %>
+                </div>
+
+                <button class="btn-buy">
+                    <%= product.inStock> 0 ? 'Add to Cart' : 'Out of Stock' %>
+                </button>
+            </div>
+        </div>
+    </main>

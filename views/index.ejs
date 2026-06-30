@@ -1,0 +1,79 @@
+<%- include('partials/header') %>
+
+  <section class="hero">
+    <h1>Premium Mobile & Tech Store</h1>
+    <p>Discover the latest smartphones, tablets, and smartwatches at unbeatable prices with official manufacturer
+      warranty.</p>
+  </section>
+
+  <main style="margin-top: 1rem;">
+    <div class="filter-bar">
+      <div class="filter-group">
+        <input type="text" id="search-input" onkeyup="filterProducts()"
+          placeholder="Search products (brand, model...)" />
+      </div>
+      <div class="filter-group">
+        <select id="category-select"
+          onchange="location.href = this.value === 'all' ? '/' : '/categories/' + this.value">
+          <option value="all" <%=typeof activeTab !=='undefined' && activeTab==='home' ? 'selected' : '' %>>All
+            Categories</option>
+          <% allCategories.forEach(cat=> { %>
+            <option value="<%= cat.slug %>" <%=typeof activeTab !=='undefined' && activeTab===cat.slug ? 'selected' : ''
+              %>>
+              <%= cat.title %>
+            </option>
+            <% }); %>
+        </select>
+      </div>
+    </div>
+
+    <h2 class="section-title">Products</h2>
+    <div class="products-grid">
+      <% products.forEach(prod=> { %>
+        <div class="product-card" data-title="<%= prod.title %>" data-brand="<%= prod.brand %>"
+          data-category="<%= prod.categorySlug %>">
+          <a href="/products/<%= prod.slug %>" class="product-img-wrapper">
+            <img src="<%= prod.image %>" alt="<%= prod.title %>" class="product-card-img">
+          </a>
+          <div class="product-info">
+            <span class="product-brand">
+              <%= prod.brand %>
+            </span>
+            <a href="/products/<%= prod.slug %>">
+              <h3 class="product-title">
+                <%= prod.title %>
+              </h3>
+            </a>
+            <div class="product-meta">
+              <span class="product-price">
+                <%= prod.price.toLocaleString() %> ֏
+              </span>
+              <div class="product-rating">
+                <span>★ <%= prod.rating %></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <% }); %>
+    </div>
+  </main>
+
+  <script>
+    function filterProducts() {
+      const searchVal = document.getElementById('search-input').value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.product-card');
+
+      cards.forEach(card => {
+        const title = card.getAttribute('data-title').toLowerCase();
+        const brand = card.getAttribute('data-brand').toLowerCase();
+
+        const matchesSearch = !searchVal || title.includes(searchVal) || brand.includes(searchVal);
+
+        if (matchesSearch) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+  </script>
