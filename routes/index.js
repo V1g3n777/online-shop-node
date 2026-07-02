@@ -1,12 +1,12 @@
 var express = require('express');
 var router = express.Router();
-var fs = require('fs');
+var fs = require('fs').promises;
 var path = require('path');
 
-const getCategories = () => {
+const getCategories = async () => {
   try {
     const filePath = path.join(__dirname, '../DB/categories.json');
-    const data = fs.readFileSync(filePath, 'utf8');
+    const data = await fs.readFile(filePath, 'utf8');
     
     return JSON.parse(data);
   } catch (error) {
@@ -15,10 +15,10 @@ const getCategories = () => {
   }
 };
 
-const getProducts = () => {
+const getProducts = async () => {
   try {
     const filePath = path.join(__dirname, '../DB/data.json');
-    const data = fs.readFileSync(filePath, 'utf8');
+    const data = await fs.readFile(filePath, 'utf8');
     return JSON.parse(data);
   } catch (error) {
     console.error("Error reading products:", error);
@@ -26,9 +26,9 @@ const getProducts = () => {
   }
 };
 
-router.get('/', function (req, res, next) {
-  const allCategories = getCategories();
-  const products = getProducts();
+router.get('/', async (req, res, next) => {
+  const allCategories = await getCategories();
+  const products = await getProducts();
 
   res.render('index', {
     title: 'TechStore - Home',
@@ -38,9 +38,9 @@ router.get('/', function (req, res, next) {
   });
 });
 
-router.get('/categories/:slug', function (req, res, next) {
-  const allCategories = getCategories();
-  const products = getProducts();
+router.get('/categories/:slug', async (req, res, next) => {
+  const allCategories = await getCategories();
+  const products = await getProducts();
 
   const category = allCategories.find(cat => cat.slug === req.params.slug);
 
@@ -59,9 +59,9 @@ router.get('/categories/:slug', function (req, res, next) {
   });
 });
 
-router.get('/products/:slug', function (req, res, next) {
-  const allCategories = getCategories();
-  const products = getProducts();
+router.get('/products/:slug', async (req, res, next) => {
+  const allCategories = await getCategories();
+  const products = await getProducts();
 
   const product = products.find(p => p.slug === req.params.slug);
 
