@@ -11,12 +11,30 @@
         "isNew": true,
         "slug": "samsung-galaxy-s25-ultra",
         "params": [
-            { "title": "Էկրան", "desc": "6.8\" Dynamic AMOLED 2X, 120Hz" },
-            { "title": "Պրոցեսոր", "desc": "Snapdragon 8 Gen 4" },
-            { "title": "Հիշողություն (RAM)", "desc": "12GB" },
-            { "title": "Հիշողություն (Storage)", "desc": "256GB" },
-            { "title": "Գույն", "desc": "Titanium Gray" },
-            { "title": "Մարտկոց", "desc": "5000 mAh" }
+            {
+                "title": "Էկրան",
+                "desc": "6.8\" Dynamic AMOLED 2X, 120Hz"
+            },
+            {
+                "title": "Պրոցեսոր",
+                "desc": "Snapdragon 8 Gen 4"
+            },
+            {
+                "title": "Հիշողություն (RAM)",
+                "desc": "12GB"
+            },
+            {
+                "title": "Հիշողություն (Storage)",
+                "desc": "256GB"
+            },
+            {
+                "title": "Գույն",
+                "desc": "Titanium Gray"
+            },
+            {
+                "title": "Մարտկոց",
+                "desc": "5000 mAh"
+            }
         ]
     },
     {
@@ -31,11 +49,26 @@
         "isNew": true,
         "slug": "samsung-galaxy-s25-plus",
         "params": [
-            { "title": "Էկրան", "desc": "6.7\" Dynamic AMOLED 2X" },
-            { "title": "Պրոցեսոր", "desc": "Exynos 2500 / Snapdragon 8 Gen 4" },
-            { "title": "Հիշողություն (RAM)", "desc": "12GB" },
-            { "title": "Հիշողություն (Storage)", "desc": "256GB" },
-            { "title": "Գույն", "desc": "Onyx Black" }
+            {
+                "title": "Էկրան",
+                "desc": "6.7\" Dynamic AMOLED 2X"
+            },
+            {
+                "title": "Պրոցեսոր",
+                "desc": "Exynos 2500 / Snapdragon 8 Gen 4"
+            },
+            {
+                "title": "Հիշողություն (RAM)",
+                "desc": "12GB"
+            },
+            {
+                "title": "Հիշողություն (Storage)",
+                "desc": "256GB"
+            },
+            {
+                "title": "Գույն",
+                "desc": "Onyx Black"
+            }
         ]
     },
     {
@@ -50,13 +83,34 @@
         "isNew": true,
         "slug": "apple-iphone-17-pro",
         "params": [
-            { "title": "Էկրան", "desc": "6.3\" Super Retina XDR" },
-            { "title": "Պրոցեսոր", "desc": "A19 Pro chip" },
-            { "title": "Հիշողություն (RAM)", "desc": "8GB" },
-            { "title": "Հիշողություն (Storage)", "desc": "128GB" },
-            { "title": "Գույն", "desc": "Natural Titanium" },
-            { "title": "SIM քարտ", "desc": "Nano-SIM & eSIM" },
-            { "title": "Տեսախցիկ", "desc": "48MP + 48MP + 48MP" }
+            {
+                "title": "Էկրան",
+                "desc": "6.3\" Super Retina XDR"
+            },
+            {
+                "title": "Պրոցեսոր",
+                "desc": "A19 Pro chip"
+            },
+            {
+                "title": "Հիշողություն (RAM)",
+                "desc": "8GB"
+            },
+            {
+                "title": "Հիշողություն (Storage)",
+                "desc": "128GB"
+            },
+            {
+                "title": "Գույն",
+                "desc": "Natural Titanium"
+            },
+            {
+                "title": "SIM քարտ",
+                "desc": "Nano-SIM & eSIM"
+            },
+            {
+                "title": "Տեսախցիկ",
+                "desc": "48MP + 48MP + 48MP"
+            }
         ]
     },
     {
@@ -71,11 +125,26 @@
         "isNew": true,
         "slug": "apple-iphone-17",
         "params": [
-            { "title": "Էկրան", "desc": "6.1\" Super Retina XDR" },
-            { "title": "Պրոցեսոր", "desc": "A19 chip" },
-            { "title": "Հիշողություն (RAM)", "desc": "8GB" },
-            { "title": "Հիշողություն (Storage)", "desc": "128GB" },
-            { "title": "Գույն", "desc": "Ultramarine" }
+            {
+                "title": "Էկրան",
+                "desc": "6.1\" Super Retina XDR"
+            },
+            {
+                "title": "Պրոցեսոր",
+                "desc": "A19 chip"
+            },
+            {
+                "title": "Հիշողություն (RAM)",
+                "desc": "8GB"
+            },
+            {
+                "title": "Հիշողություն (Storage)",
+                "desc": "128GB"
+            },
+            {
+                "title": "Գույն",
+                "desc": "Ultramarine"
+            }
         ]
     },
     {
@@ -90,11 +159,26 @@
         "isNew": false,
         "slug": "apple-ipad-11-wi-fi-128gb-2025-blue",
         "params": [
-            { "title": "Էկրան", "desc": "10.9\" Liquid Retina" },
-            { "title": "Կապ", "desc": "Wi-Fi Only" },
-            { "title": "Հիշողություն", "desc": "128GB" },
-            { "title": "Գույն", "desc": "Blue" },
-            { "title": "Լիցքավորում", "desc": "USB-C" }
+            {
+                "title": "Էկրան",
+                "desc": "10.9\" Liquid Retina"
+            },
+            {
+                "title": "Կապ",
+                "desc": "Wi-Fi Only"
+            },
+            {
+                "title": "Հիշողություն",
+                "desc": "128GB"
+            },
+            {
+                "title": "Գույն",
+                "desc": "Blue"
+            },
+            {
+                "title": "Լիցքավորում",
+                "desc": "USB-C"
+            }
         ]
     },
     {
@@ -109,11 +193,26 @@
         "isNew": false,
         "slug": "samsung-galaxy-tab-a11-plus-wi-fi-256gb-silver",
         "params": [
-            { "title": "Էկրան", "desc": "11.0\" TFT LCD" },
-            { "title": "Կապ", "desc": "Wi-Fi" },
-            { "title": "Հիշողություն", "desc": "256GB" },
-            { "title": "Օպերացիոն համակարգ", "desc": "Android 15" },
-            { "title": "Գույն", "desc": "Silver" }
+            {
+                "title": "Էկրան",
+                "desc": "11.0\" TFT LCD"
+            },
+            {
+                "title": "Կապ",
+                "desc": "Wi-Fi"
+            },
+            {
+                "title": "Հիշողություն",
+                "desc": "256GB"
+            },
+            {
+                "title": "Օպերացիոն համակարգ",
+                "desc": "Android 15"
+            },
+            {
+                "title": "Գույն",
+                "desc": "Silver"
+            }
         ]
     },
     {
@@ -128,10 +227,22 @@
         "isNew": false,
         "slug": "green-lion-communicate-49-ultra",
         "params": [
-            { "title": "Չափս", "desc": "49mm" },
-            { "title": "Ջրակայունություն", "desc": "IP67" },
-            { "title": "Զանգեր", "desc": "Bluetooth Calling" },
-            { "title": "Էկրան", "desc": "HD Display" }
+            {
+                "title": "Չափս",
+                "desc": "49mm"
+            },
+            {
+                "title": "Ջրակայունություն",
+                "desc": "IP67"
+            },
+            {
+                "title": "Զանգեր",
+                "desc": "Bluetooth Calling"
+            },
+            {
+                "title": "Էկրան",
+                "desc": "HD Display"
+            }
         ]
     },
     {
@@ -146,11 +257,290 @@
         "isNew": true,
         "slug": "xiaomi-redmi-watch-5-active",
         "params": [
-            { "title": "Չափս", "desc": "45mm" },
-            { "title": "Մարտկոցի կյանք", "desc": "18 days" },
-            { "title": "SIM card", "desc": "Nano-SIM & eSIM" },
-            { "title": "Էկրան", "desc": "2.0\" LCD" },
-            { "title": "Սպորտային ռեժիմներ", "desc": "140+" }
+            {
+                "title": "Չափս",
+                "desc": "45mm"
+            },
+            {
+                "title": "Մարտկոցի կյանք",
+                "desc": "18 days"
+            },
+            {
+                "title": "SIM card",
+                "desc": "Nano-SIM & eSIM"
+            },
+            {
+                "title": "Էկրան",
+                "desc": "2.0\" LCD"
+            },
+            {
+                "title": "Սպորտային ռեժիմներ",
+                "desc": "140+"
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "categorySlug": "phones",
+        "brand": "Google",
+        "title": "Google Pixel 9 Pro XL",
+        "price": 429900,
+        "image": "https://www.mobilecentre.am/img/prodpic/8020bbf49e774f5903c1New_Project_-_2025-04-08T110640.026.png",
+        "inStock": 6,
+        "rating": 4.8,
+        "isNew": true,
+        "slug": "google-pixel-9-pro-xl",
+        "params": [
+            {
+                "title": "Էկրան",
+                "desc": "6.8\" LTPO OLED 120Hz"
+            },
+            {
+                "title": "Պրոցեսոր",
+                "desc": "Google Tensor G4"
+            },
+            {
+                "title": "Հիշողություն (RAM)",
+                "desc": "16GB"
+            },
+            {
+                "title": "Հիշողություն (Storage)",
+                "desc": "256GB"
+            },
+            {
+                "title": "Գույն",
+                "desc": "Obsidian"
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "categorySlug": "phones",
+        "brand": "OnePlus",
+        "title": "OnePlus 13",
+        "price": 339900,
+        "image": "https://mobilecentre.am/img/catpic/430010f45678e4cac1d821ed0a5c0a1ef0919454New_Project.png",
+        "inStock": 8,
+        "rating": 4.7,
+        "isNew": true,
+        "slug": "oneplus-13",
+        "params": [
+            {
+                "title": "Էկրան",
+                "desc": "6.82\" AMOLED 120Hz"
+            },
+            {
+                "title": "Պրոցեսոր",
+                "desc": "Snapdragon 8 Elite"
+            },
+            {
+                "title": "Հիշողություն (RAM)",
+                "desc": "12GB"
+            },
+            {
+                "title": "Հիշողություն (Storage)",
+                "desc": "256GB"
+            },
+            {
+                "title": "Գույն",
+                "desc": "Black Eclipse"
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "categorySlug": "tablets",
+        "brand": "Apple",
+        "title": "Apple iPad Air 11 M3 Wi-Fi 128GB",
+        "price": 299900,
+        "image": "https://www.mobilecentre.am/img/prodpic/8020bbf49e774f5903c1New_Project_-_2025-04-08T110640.026.png",
+        "inStock": 9,
+        "rating": 4.9,
+        "isNew": true,
+        "slug": "apple-ipad-air-11-m3-128gb",
+        "params": [
+            {
+                "title": "Էկրան",
+                "desc": "11\" Liquid Retina"
+            },
+            {
+                "title": "Պրոցեսոր",
+                "desc": "Apple M3"
+            },
+            {
+                "title": "Հիշողություն",
+                "desc": "128GB"
+            },
+            {
+                "title": "Կապ",
+                "desc": "Wi-Fi"
+            },
+            {
+                "title": "Գույն",
+                "desc": "Blue"
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "categorySlug": "tablets",
+        "brand": "Xiaomi",
+        "title": "Xiaomi Pad 7 Pro",
+        "price": 249900,
+        "image": "https://www.mobilecentre.am/img/prodpic/ee7a1c84e180ee871c0bNew_Project_-_2025-11-11T152517.128.png",
+        "inStock": 4,
+        "rating": 4.6,
+        "isNew": true,
+        "slug": "xiaomi-pad-7-pro",
+        "params": [
+            {
+                "title": "Էկրան",
+                "desc": "12.1\" 144Hz LCD"
+            },
+            {
+                "title": "Պրոցեսոր",
+                "desc": "Snapdragon 8s Gen 3"
+            },
+            {
+                "title": "Հիշողություն",
+                "desc": "256GB"
+            },
+            {
+                "title": "RAM",
+                "desc": "12GB"
+            },
+            {
+                "title": "Գույն",
+                "desc": "Gray"
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "categorySlug": "watches",
+        "brand": "Apple",
+        "title": "Apple Watch Ultra 2",
+        "price": 359900,
+        "image": "https://www.mobilecentre.am/img/prodpic/f9b0a2c3cdc0be2bcb37New_Project__1_.png",
+        "inStock": 5,
+        "rating": 4.9,
+        "isNew": false,
+        "slug": "apple-watch-ultra-2",
+        "params": [
+            {
+                "title": "Չափս",
+                "desc": "49mm"
+            },
+            {
+                "title": "Էկրան",
+                "desc": "Always-On Retina OLED"
+            },
+            {
+                "title": "Մարտկոցի կյանք",
+                "desc": "36 hours"
+            },
+            {
+                "title": "GPS",
+                "desc": "Dual Frequency"
+            },
+            {
+                "title": "Գույն",
+                "desc": "Titanium"
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "categorySlug": "watches",
+        "brand": "Samsung",
+        "title": "Samsung Galaxy Watch 7",
+        "price": 159900,
+        "image": "https://www.mobilecentre.am/img/prodpic/5a7a0e0f6d0fdfce89f8New_Project_-_2026-02-11T124124.745.png",
+        "inStock": 12,
+        "rating": 4.7,
+        "isNew": true,
+        "slug": "samsung-galaxy-watch-7",
+        "params": [
+            {
+                "title": "Չափս",
+                "desc": "44mm"
+            },
+            {
+                "title": "Էկրան",
+                "desc": "Super AMOLED"
+            },
+            {
+                "title": "GPS",
+                "desc": "Yes"
+            },
+            {
+                "title": "Ջրակայունություն",
+                "desc": "5 ATM"
+            },
+            {
+                "title": "Գույն",
+                "desc": "Silver"
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "categorySlug": "watches",
+        "brand": "Sony",
+        "title": "Sony WH-1000XM5",
+        "price": 149900,
+        "image": "https://www.mobilecentre.am/img/prodpic/f9b0a2c3cdc0be2bcb37New_Project__1_.png",
+        "inStock": 10,
+        "rating": 4.9,
+        "isNew": false,
+        "slug": "sony-wh-1000xm5",
+        "params": [
+            {
+                "title": "Տեսակ",
+                "desc": "Over-Ear"
+            },
+            {
+                "title": "Միացում",
+                "desc": "Bluetooth 5.3"
+            },
+            {
+                "title": "Աղմուկի չեղարկում",
+                "desc": "Active Noise Cancellation"
+            },
+            {
+                "title": "Մարտկոցի կյանք",
+                "desc": "30 hours"
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "categorySlug": "headphones",
+        "brand": "Apple",
+        "title": "AirPods Pro (2nd Generation)",
+        "price": 109900,
+        "image": "https://allsell.am/media/catalog/product/cache/207e23213cf636ccdef205098cf3c8a3/y/e/yeeeeeeeeeeeyy_29_.jpg",
+        "inStock": 15,
+        "rating": 4.9,
+        "isNew": false,
+        "slug": "airpods-pro-2",
+        "params": [
+            {
+                "title": "Տեսակ",
+                "desc": "True Wireless"
+            },
+            {
+                "title": "Չիպ",
+                "desc": "Apple H2"
+            },
+            {
+                "title": "Աղմուկի չեղարկում",
+                "desc": "Active Noise Cancellation"
+            },
+            {
+                "title": "Մարտկոցի կյանք",
+                "desc": "30 hours with case"
+            }
         ]
     }
 ]

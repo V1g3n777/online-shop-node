@@ -16,5 +16,77 @@
     "title": "Ժամացույցներ",
     "image": "https://www.mobilecentre.am/img/catpic/08d9f44910f5c95028ffwatches.png",
     "slug": "watches"
+  },
+  {
+    "id": "4",
+    "title": "Նոթբուքեր",
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500",
+    "slug": "laptops"
+  },
+  {
+    "id": "5",
+    "title": "Ականջակալներ",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500",
+    "slug": "headphones"
+  },
+  {
+    "id": "6",
+    "title": "Համակարգիչներ",
+    "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?w=500",
+    "slug": "computers"
+  },
+  {
+    "id": "7",
+    "title": "Տեսախաղային կոնսոլներ",
+    "image": "https://images.unsplash.com/photo-1605901309584-818e25960a8f?w=500",
+    "slug": "gaming-consoles"
+  },
+  {
+    "id": "8",
+    "title": "Հեռուստացույցներ",
+    "image": "https://images.unsplash.com/photo-1593784991095-a205069470b6?w=500",
+    "slug": "tv"
+  },
+  {
+    "id": "9",
+    "title": "Տեսախցիկներ",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+    "slug": "cameras"
+  },
+  {
+    "id": "10",
+    "title": "Բարձրախոսներ",
+    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=500",
+    "slug": "speakers"
+  },
+  {
+    "id": "11",
+    "title": "Ստեղնաշարեր",
+    "image": "https://images.unsplash.com/photo-1511467687858-23d96c32e4ae?w=500",
+    "slug": "keyboards"
+  },
+  {
+    "id": "12",
+    "title": "Մկնիկներ",
+    "image": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=500",
+    "slug": "mice"
+  },
+  {
+    "id": "13",
+    "title": "Մոնիտորներ",
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=500",
+    "slug": "monitors"
+  },
+  {
+    "id": "14",
+    "title": "Պահեստային հիշողություն",
+    "image": "https://images.unsplash.com/photo-1591488320449-011701bb6704?w=500",
+    "slug": "storage"
+  },
+  {
+    "id": "15",
+    "title": "Աքսեսուարներ",
+    "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=500",
+    "slug": "accessories"
   }
 ]
